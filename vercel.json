@@ -1,6 +1,7 @@
 {
   "functions": {
-    "api/index.py": {
+    "api/**": {
+      "excludeFiles": "{.git,*.ipynb,.vercel,venv,.venv,env,**/__pycache__,node_modules,models,data,notebooks}/**",
       "includeFiles": "support_tickets.csv"
     }
   },
