@@ -4,3 +4,6 @@ scikit-learn
 matplotlib
 numpy
 wordcloud
+fastapi
+uvicorn
+pandas

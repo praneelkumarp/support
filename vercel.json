@@ -1,0 +1,13 @@
+{
+  "functions": {
+    "api/index.py": {
+      "includeFiles": [
+        "support_tickets.csv",
+        "support_ticket_chatbot.py"
+      ]
+    }
+  },
+  "routes": [
+    { "src": "/", "dest": "api/index.py" }
+  ]
+}
