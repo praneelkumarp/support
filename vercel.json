@@ -1,10 +1,7 @@
 {
   "functions": {
     "api/index.py": {
-      "includeFiles": [
-        "support_tickets.csv",
-        "support_ticket_chatbot.py"
-      ]
+      "includeFiles": "support_tickets.csv"
     }
   },
   "routes": [
